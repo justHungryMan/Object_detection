@@ -100,7 +100,17 @@ docker pull resolution15/faster_rcnn:inception_resnet
 
         * Result
 
-            ![](images/test_nms.png?raw=true)
+            ```
+            __main__.TestNMS.test_nms_empty in 0.000s, 0 -> 0
+            .__main__.TestNMS.test_nms_large in 0.011s, 9770 -> 1934
+            .__main__.TestNMS.test_nms_single in 0.001s, 1 -> 1
+            .__main__.TestNMS.test_nms_small in 0.000s, 3 -> 2
+            .
+            ----------------------------------------------------------------------
+            Ran 4 tests in 0.019s
+
+            OK
+            ```
 
 1. Install `pycocotools` for `MS COCO 2017` dataset
 
