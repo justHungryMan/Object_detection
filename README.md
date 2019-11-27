@@ -189,7 +189,7 @@ docker pull resolution15/faster_rcnn:inception_resnet
         ```
 
 ## Features
-- **Backbone** : 'resnet18', 'resnet50', 'resnet101', 'inception_resnet_v2' 
+- **Backbone** : 'resnet18', 'resnet50', 'resnet101', 'inception_resnet_v2' , 'resnext'
     - NASnet has some error at nn.Sequential (multi parameters)
 - **Faster R-CNN + ResNet + Atrous** : easy-faster-rcnn.pytorch/backbone/inceptionresnetv2.py
     - Add dilation parameter 
